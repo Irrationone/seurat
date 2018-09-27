@@ -5,12 +5,12 @@
 \title{Cluster Determination}
 \usage{
 FindClusters(object, genes.use = NULL, reduction.type = "pca",
-  dims.use = NULL, k.param = 30, plot.SNN = FALSE, prune.SNN = 1/15,
-  print.output = TRUE, distance.matrix = NULL, save.SNN = FALSE,
-  reuse.SNN = FALSE, force.recalc = FALSE, nn.eps = 0,
-  modularity.fxn = 1, resolution = 0.8, algorithm = 1, n.start = 100,
-  n.iter = 10, random.seed = 0, temp.file.location = NULL,
-  edge.file.name = NULL)
+  dims.use = NULL, k.param = 30, plot.SNN = FALSE,
+  prune.SNN = 1/15, print.output = TRUE, distance.matrix = NULL,
+  save.SNN = FALSE, reuse.SNN = FALSE, force.recalc = FALSE,
+  nn.eps = 0, modularity.fxn = 1, resolution = 0.8, algorithm = 1,
+  n.start = 100, n.iter = 10, random.seed = 0,
+  temp.file.location = NULL, edge.file.name = NULL)
 }
 \arguments{
 \item{object}{Seurat object}
