@@ -307,7 +307,7 @@ Convert.SingleCellExperiment <- function(
         }
       )
       meta.data <- as.data.frame(SummarizedExperiment::colData(from))
-      seurat.object <- CreateSeuratObject(raw.data = raw.data, meta.data = meta.data)
+      seurat.object <- CreateSeuratObject(raw.data = raw.data, meta.data = meta.data, ...)
       seurat.object@data <- data
       if (length(x = SingleCellExperiment::reducedDimNames(from)) > 0) {
         for (dr in SingleCellExperiment::reducedDimNames(from)) {
