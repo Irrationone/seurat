@@ -42,7 +42,6 @@ Imports:
     gplots,
     Rcpp (>= 0.11.0),
     dtw,
-    SDMTools,
     plotly,
     diffusionMap,
     Hmisc,
